@@ -918,7 +918,7 @@
                       viewPortKeyDownUnregister();
                     });
                   }
-                  
+
                   // macOS will blur the checkbox when clicked in Safari and Firefox,
                   // to get around this, we disable the blur handler on mousedown,
                   // and then focus the checkbox and re-enable the blur handler after $timeout
@@ -933,7 +933,6 @@
                   });
 
                   $elm.on('blur', $scope.stopEdit);
-                });
                 });
 
 
